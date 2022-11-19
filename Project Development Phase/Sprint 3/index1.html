@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{
+margin:0;
+padding:0;
+background:url("https://sensorex.com/wp-content/uploads/2021/09/splashing-165192_1280.jpg")no-repeat center center fixed;
+background-size:cover;
+position:absolute;
+}
+input[type=submit] {
+  background-color: deepskyblue;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<center>
+<img src="https://sensorex.com/wp-content/uploads/2021/09/splashing-165192_1280.jpg" width="100%" height="100%"/>
+
+  <h2 style=font-family:"TimesNewRoman" ><u>WATER PARAMETER VALUES</u></h2>
+<b>
+<form name="pythonProject" action="/input" method="post">
+  <label for="loc">Location:</label><br>
+  <input type="text" id="loc" name="loc" value=""><br><br>
+  <label for="state">State:</label><br>
+  <input type="text" id="state" name="state" value=""><br><br>
+  <label for="temp">Temperature:</label><br>
+  <input type="text" id="temp" name="temp" value=""><br><br>
+  <label for="d.o">D.O(mg/l):</label><br>
+  <input type="text" id="d.o" name="doi" value=""><br><br>
+  <label for="ph">pH:</label><br>
+  <input type="text" id="ph" name="ph" value=""><br><br>
+  <label for="cond">Conductivity:</label><br>
+  <input type="text" id="cond" name="cond" value=""><br><br>
+  <label for="bod">B.O.D:</label><br>
+  <input type="text" id="bod" name="bod" value=""><br><br>
+  <label for="nit">Nitratenann+Nitritenann(mg/l):</label><br>
+  <input type="text" id="nit" name="nit" value=""><br><br>
+  <label for="fcoli">Fecal coliform(MPN/100ml):</label><br>
+  <input type="text" id="fcoli" name="fcoli" value=""><br><br>
+  <label for="tcoli">Total coliform(MPN/100ml):</label><br>
+  <input type="text" id="tcoli" name="tcoli" value=""><br>
+  <br>
+  <input type="submit" value="submit">
+
+</form>
+</b>
+</center>
+</body>
+</html>
+
